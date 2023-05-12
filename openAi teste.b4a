@@ -133,8 +133,8 @@ End Sub
 '		Dim req As HttpJob
 '		req.Initialize("",Me)
 '		req.Download("https://api.openai.com/v1/models")
-'		req.GetRequest.SetHeader("Authorization","Bearer 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")
-'		req.GetRequest.SetHeader("OpenAI-Organization","org-TV3YOqDRg5DXvAUcL7dC6lI9")
+'		req.GetRequest.SetHeader("Authorization","Bearer YOUR API KEY")
+'		req.GetRequest.SetHeader("OpenAI-Organization","YOUR ORG")
 '		
 '		Wait For (req) jobdone(req As HttpJob)
 ' 
